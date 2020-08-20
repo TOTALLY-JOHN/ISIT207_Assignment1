@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>INTI TABLE TENNIS CLUB</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <style>
+        header {
+            background-image: url(images/headerimage3.jpg);
+        }
+        #section_img1 {
+            width: 300px;
+            height: 600px;
+            float: left;
+        }
+
+        #section_img2 {
+            margin-left: 75px;
+            width: 300px;
+            height: 600px;
+            float: left;
+        }
+
+        #section_img3 {
+            margin-left: 75px;
+            width: 500px;
+            height: 600px;
+            float: left;
+        }
+
+        footer {
+            top: 1400px;
+            position: absolute;
+            width: 99%;
+            height: 70px;
+            background-color: #353333;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <header>
+            <div id="headerPart">
+                <a href="https://newinti.edu.my/" target="_self">
+                    <img src="images/pic3.png" width="300" height="80" alt="intiLogo" />
+                </a>
+            </div>
+            <div id="headImage">
+                <h1 style="font-family:Century Schoolbook; font-weight:bold; font-size:40px; color:white; margin-left:50px; margin-top:70px; width:650px; text-align:right;">
+                    APPLY FOR CLUB.<br />APPLY FOR ACTIVITY.<br />APPLY FOR THE VICTORY.
+                </h1>
+            </div>
+        </header>
+        <nav>
+            <div id="menu">
+                <br />
+                <a id="menuText" href="default.html">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a id="menuText" href="intro.html">About Club</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a id="menuText" href="apply.html">How to Apply</a>
+            </div>
+        </nav>
+        <section>
+            <br />
+            <h1 style="font-size:35px; font-family:'Lucida Sans'; margin-left:280px;">APPLICATION FOR THE CLUB</h1><br /><br />
+            <div id="section_img1" style="width:900px; height:630px; text-align:left; margin-left:80px; background-color:#ebebeb">
+                <h2 style="font-size:33px; text-align:center; font-family:'Californian FB';">Please, fill in the application form.</h2><br /><br />
+                <div style="margin-left:140px;">
+                    <form action="#">
+                        <!-- Absolute Unit Measurement using cm. go to the right to find cm-->
+                        <span style="font-size:25px;">
+                            INTI ID : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="text" id="studentId" name="studentId" style="width:6.1cm; height:1cm; margin-top:-10px;" />
+                        </span><br /><br /><br />
+
+                        <!-- Relative Unit Measurement using percent. -->
+                        <span style="font-size:25px;">
+                            DATE OF BIRTH : &nbsp; &nbsp; &nbsp;
+                            <input type="date" id="studentDob" name="studentDob" style="width:30.2%;" />
+                        </span><br /><br /><br />
+
+                        <span style="font-size:25px;">
+                            <!-- Absolute Unit Measurement using cm. -->
+                            AVAILABLE TIME : &nbsp; FROM &nbsp; <input type="time" id="fromTime" name="fromTime" style="width:3.8cm" /> &nbsp;<br /><br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TO &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="time" id="toTime" name="toTime" style="width:18.6%" /> <!-- Relative Unit Measurement using percent. -->
+                        </span> <br />
+
+                        <br /><br />
+                        <span style="font-size:25px;">
+                            PREFERRED MODE :
+                            <select id="preferredMode" name="preferredMode" style="width:232px; height:35px; font-size:18px;">
+                                <option value="singleMale">SINGLE(M)</option>
+                                <option value="doubleMale">DOUBLE(M)</option>
+                                <option value="singleFemale">SINGLE(F)</option>
+                                <option value="doubleFemale">DOUBLE(F)</option>
+                            </select><br /><br />
+                        </span><br />
+                        <span style="font-size:25px;">
+                            PREFERRED TYPE :
+                            <input type="radio" id="racket_penholder" name="racket_penholder" checked /> PEN HOLDER &nbsp;
+                            <input type="radio" id="racket_shakehands" name="racket_shakehands" /> SHAKE HANDS
+                        </span><br /><br /><br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="button" value="SUBMIT" style="width:200px; height:50px; font-size:20px;" /><br />
+                    </form>
+                    <br />   
+                </div>
+                <!--The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.-->
+                <figure>
+                    <img src="images/pic6.png" width="320" height="170" alt="ThankYouImage" style="margin-left:50px;" />
+                    <img src="images/pic5.jpg" width="320" height="170" alt="WelcomeImage" style="margin-left:50px;" />
+                </figure>
+            </div>
+        </section>
+        
+        <aside>
+            <a href="https://www.instagram.com/inti_edu/?hl=en" target="_blank">
+                <img src="images/picture5.jpg" width="45" height="45" alt="instagram" /><br />
+            </a>
+            <a href="https://www.facebook.com/INTI.edu/" target="_blank">
+                <img src="images/picture6.jpg" width="45" height="45" alt="facebook" /><br />
+            </a>
+            <a href="http://international.newinti.edu.my/thank-you-for-contacting-us" target="_blank">
+                <img src="images/picture7.jpg" width="45" height="45" alt="whatsapp" /><br />
+            </a>
+            <a href="https://www.youtube.com/channel/UCvK0364R3x6ojR6_ozh5LkA" target="_blank">
+                <img src="images/picture8.jpg" width="45" height="45" alt="youtube" />
+            </a>
+        </aside>
+        <footer>
+            <p style="text-align:center; position:relative; top:-5px; color:white; font-size:20px;">
+                &copy; Copyright 2019 INTI international University &amp; Colleges<br />
+                <a id="footerLink" href="https://newinti.edu.my/legal/tnc/" target="_blank">
+                    Terms of Use
+                </a>
+                &nbsp; &nbsp;
+                <a id="footerLink" href="https://newinti.edu.my/legal/privacy/" target="_blank">
+                    Private Policy
+                </a> &nbsp;
+            </p>
+        </footer>
+        <a href="#headerPart" style="position:fixed; right:12px; bottom:6px;">
+            <img src="images/picture9.png" width="60" height="60" alt="goToTitle" />
+        </a>
+    </div>
+</body>
+</html>
